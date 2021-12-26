@@ -1,0 +1,41 @@
+version: '3.1'
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: DockerPortfolio
+    container_name: portfolio_project
+    command: uvicorn main:app --reload --host=0.0.0.0 --port=11111
+    volumes:
+    - ./portfolio:/portfolio
+    restart: on-failure
+    networks:
+      - default
+    ports:
+      - "11111:11111"
+#    depends_on:
+#      - db
+#      - redis
+#
+#  db:
+#    container_name: vantage_postgres
+#    image: postgres
+#    restart: always
+#    environment:
+#      POSTGRES_PASSWORD: KGfFk4Zon1kiDnoW723n531JmZYJ
+#      POSTGRES_USER: vantage
+#      POSTGRES_DB: vantage
+#    networks:
+#      - default
+#    ports:
+#      - "5432:5432"
+#
+#  redis:
+#    container_name: vantage_redis
+#    image: redis:3.2
+#    restart: always
+#    networks:
+#      - default
+#    ports:
+#      - "6379:6379"

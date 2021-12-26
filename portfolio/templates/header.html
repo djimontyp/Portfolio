@@ -1,0 +1,11 @@
+{% block header%}
+<div class="div_header_menu">
+    <ul class="ul_header_menu">
+        <li><a href="{{ url_for('index') }}">About me</a></li>
+        <li><a href="{{ url_for('parser') }}">Parsers</a></li>
+        <li><a href="{{ url_for('content') }}">Content</a></li>
+        <li><a href="{{ url_for('swagger_ui_html') }}">OpenAPI</a></li>
+        <li><a href="{{ url_for('redoc_html') }}">ReDoc</a></li>
+    </ul>
+</div>
+{% endblock%}
