@@ -1,11 +1,11 @@
 from pathlib import Path
 
 # BACKEND
-BASE_DIR_B: Path = Path(__file__).parent
-STATIC_PATH_B: Path = BASE_DIR_B.joinpath('static')
-TEMPLATES_PATH_B: Path = BASE_DIR_B.joinpath('templates')
+BASE_DIR_BACKEND: Path = Path(__file__).parent
+STATIC_BACKEND: Path = BASE_DIR_BACKEND.joinpath('/static')
+TEMPLATES_BACKEND: Path = BASE_DIR_BACKEND.joinpath('templates')
 
 # FRONTEND
-IMAGES_PATH_F: Path = Path('images')
-BOOKS_PATH_F: Path = IMAGES_PATH_F.joinpath('books')
+IMAGES_FRONTEND: Path = Path('images')
+BOOKS_FRONTEND: Path = IMAGES_FRONTEND.joinpath('books')
 
