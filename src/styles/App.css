@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.MySelf {
+    border: 0 solid #e5e7eb;
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    max-height: 25rem;
+}
+
+.text-green-600 {
+    --tw-text-opacity: 1;
+    color: #0b564b;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    line-height: 1.4;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.App {
+}
+
+.List {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+}
+
+#lead {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: url(../../public/lead_bg.jpg);
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#lead-content {
+    text-shadow: 0 0 8px #00ffe45c;
+    position: absolute;
+    z-index: 10;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+}
+
+#lead-content h1 {
+    color: #0b564b;
+    font-weight: 900;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+}
+
+#lead-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(100, 220, 231, 0.05);
+    z-index: 1;
+}
+
+#names {
+    display: flex;
+    flex-direction: column;
+}
