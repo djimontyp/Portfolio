@@ -6,16 +6,13 @@ function App() {
     <div className="App">
       <div id="lead">
         <div id="lead-content">
-          <img src="/myself3.jpg" className="MySelf"
-               alt="djimontyp (Maks Naumenko)"></img>
           <div id="names">
-            <h1>Maks Naumenko</h1>
+            <h1>Hey! I'm Maks Naumenko - Software Engineer.</h1>
             <strong><a
-              href="https://twitter.com/djimontyp"
+              href="https://github.com/djimontyp"
               rel="noopener"
               className="text-green-600 text-3xl"
             >@djimontyp</a></strong>
-          <h2>Software Engineer</h2>
           </div>
         </div>
         <div id="lead-overlay"></div>
