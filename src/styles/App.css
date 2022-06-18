@@ -59,6 +59,13 @@ html, body {
 .App {
 }
 
+.List {
+    display: flex;
+    padding: 15px;
+    border: 2px solid #8906c7;
+    margin-top: 15px;
+}
+
 #lead {
     display: flex;
     align-items: center;
