@@ -71,7 +71,7 @@ html, body {
 .List {
     display: flex;
     padding: 15px;
-    border: 2px solid teal;
+    border: 2px solid #8906c7;
     margin-top: 15px;
 }
 
