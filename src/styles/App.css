@@ -59,6 +59,23 @@ html, body {
 .App {
 }
 
+.Social {
+    display: flex;
+    justify-content: center;
+}
+
+.Icon {
+    fill: #371a8d;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin-inline: 20px;
+}
+
+.Icon:hover {
+  transform: scale(1.2);
+}
+
 .List {
     display: flex;
     padding: 15px;
@@ -85,7 +102,7 @@ html, body {
     z-index: 10;
     text-align: start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #lead-content h1 {
@@ -111,4 +128,5 @@ html, body {
 #names {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }

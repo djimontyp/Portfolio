@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/App.css';
+import SocialFlow from "./components/SocialFlow";
 
 function App() {
   return (
@@ -14,12 +15,12 @@ function App() {
               className="text-green-600 text-3xl"
             >@djimontyp</a></strong>
           </div>
+          <SocialFlow/>
         </div>
         <div id="lead-overlay"></div>
       </div>
-      <div id="about-me"><br/><br/><br/><br/></div>
+      <div id="about-me"></div>
     </div>
-
   );
 }
 
